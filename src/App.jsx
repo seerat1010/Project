@@ -1,24 +1,24 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
 
-export default function App() {
-  return (
-    <div class="app">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-       <li class="b"><button>Login</button></li>
-       <li class="b"><button>Sign Up</button></li>
-      </ul>
-      
+import './styles.css';
+
  
-    </div>
-  );
+  var aa;
+
+function App()
+{
+ 
+  
+  
+  return(
+  <div>
+      aa = <input  id = "name" value = ""></input>   
+
+  <h1>Hello {aa} nuub </h1></div>); 
+  
 }
+
+  
+
+export default App; 
+  
