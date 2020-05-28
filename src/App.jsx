@@ -1,20 +1,15 @@
 import React from 'react';
 
-import './styles.css';
+import Navi from './components/nav.jsx'
 
- 
-  var aa;
+
 
 function App()
 {
  
-  
-  
   return(
-  <div>
-      aa = <input  id = "name" value = ""></input>   
-
-  <h1>Hello {aa} nuub </h1></div>); 
+  <Navi /> 
+  ); {/* only one element :) */}
   
 }
 

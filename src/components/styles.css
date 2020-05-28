@@ -1,0 +1,82 @@
+
+  body {
+    
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    background-color: #202020;
+    
+  }
+  .nav{
+    position:sticky;/*to fix it*/
+    top: 0;
+    z-index: 1; /*if this is not used then the text(welcome) will be visible in the white text of navigation bar (home etc.) when we will scroll*/
+  }
+  .a{
+    position: relative;
+    top: -450px;
+    background-color: none;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-size:70px;
+    line-height: 48px;
+  } 
+  .image{
+    width:1359px;
+    height: 610px;
+    margin:-18px ;
+    opacity: 0.8;
+  
+  }
+  
+
+  ul {
+
+    list-style-type: none; /*to remove bullets*/
+    background-color: #000000;
+    margin: -8px -8px 0px -8px;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    padding: 7px 0px 7px 0px;
+    font-size: 18px;
+    margin: 15px;
+  
+  }
+   a {
+    color: white;
+    text-decoration: none;/*to remove underline*/
+
+  }
+
+  li a:hover {
+    background-color: #000000;
+    color:  #f6376d;
+  }
+  
+  .b{
+  
+    position: absolute;/*workflow se bahar*/
+    left: 1000px; /*left se margin diya*/
+ }
+ 
+
+  .button{
+    margin: 15px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-family: inherit;
+    background-color: #f6376d;
+    color: white;
+    text-decoration: none;
+    border: none;
+    height: 35px;
+    width: 125.078px;
+    padding: 5px 21px 7px 21px;
+    opacity: 1;
+  }
+  .button:hover{
+   opacity: 0.85;/*grey color is due to this*/
+   cursor: pointer;
+  }
+ 
