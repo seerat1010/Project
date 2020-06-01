@@ -4,14 +4,29 @@
     
     
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <title>Project
-      
-    </title>
+    <link rel="stylesheet" href="..\src\components\styles.css";/>
+    <title>Project</title>
   </head>
-  <body>
-    
-    <div id="root"></div>
+  <body onload="load()">
+    <div id="load">
+      <div class="preloader"></div>
+      <div class="loader"></div>    
+      </div> 
+    <div id="root"  style="display: none;"></div>
     
   </body>
+  <script>
+    var rec;
+    function load(){
+        rec=setTimeout(show,2000);
+    }
+
+    function show(){
+        
+        document.getElementById("load").style.display="none";
+        document.getElementById("root").style.display="block";
+
+
+    }
+</script>
 </html>
