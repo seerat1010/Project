@@ -1,15 +1,21 @@
 import React from 'react';
 
-import Navi from './components/nav.jsx'
-
+import Navi from './components/nav.jsx';
+import Card from './components/card.jsx';
 
 
 function App()
 {
  
   return(
-  <Navi /> 
-  ); {/* only one element :) */}
+    <div>
+     <Navi /> 
+     <Card />
+     
+     </div>
+
+    
+  ); 
   
 }
 
