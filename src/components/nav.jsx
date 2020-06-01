@@ -17,9 +17,8 @@ return (
   </ul>
  </div>
 
- <img className="image" src="../images/h.jpg" />
- <h1 className="a"> Welcome To </h1>
- <h1 className="a"> Signature Stays</h1>
+ <img className="image" src="../images/cover.jpg" />
+
 </div>
 );
 }
